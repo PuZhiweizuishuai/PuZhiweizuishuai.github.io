@@ -78,7 +78,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Hexo,GitHub,博客," />
 
 
 
@@ -94,17 +94,24 @@
 
 
 
-<meta name="description" content="学习GIthub时顺便建的博客">
-<meta name="keywords" content="编程">
-<meta property="og:type" content="website">
-<meta property="og:title" content="不挂英语">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="开发时踩坑记录">
+<meta name="keywords" content="Hexo,GitHub,博客">
+<meta property="og:type" content="article">
+<meta property="og:title" content="在用Hexo+GithubPages搭建博客时遇到的坑">
+<meta property="og:url" content="http://yoursite.com/2018/05/12/在用Hexo-GithubPages搭建博客时遇到的坑/index.html">
 <meta property="og:site_name" content="不挂英语">
-<meta property="og:description" content="学习GIthub时顺便建的博客">
+<meta property="og:description" content="开发时踩坑记录">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://7xjjdc.com1.z0.glb.clouddn.com/Hexotite.png">
+<meta property="og:image" content="https://github.com/PuZhiweizuishuai/PzhiweiBlogPhoto/blob/master/%E8%8F%9C%E5%8D%95.JPG">
+<meta property="og:image" content="http://7xjjdc.com1.z0.glb.clouddn.com/Nextlogo.JPG">
+<meta property="og:image" content="http://7xjjdc.com1.z0.glb.clouddn.com/%E4%BF%AE%E6%94%B9logo.jpg">
+<meta property="og:image" content="http://7xjjdc.com1.z0.glb.clouddn.com/logo%E4%BF%AE%E6%94%B9.JPG">
+<meta property="og:updated_time" content="2018-05-12T15:53:33.211Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="不挂英语">
-<meta name="twitter:description" content="学习GIthub时顺便建的博客">
+<meta name="twitter:title" content="在用Hexo+GithubPages搭建博客时遇到的坑">
+<meta name="twitter:description" content="开发时踩坑记录">
+<meta name="twitter:image" content="http://7xjjdc.com1.z0.glb.clouddn.com/Hexotite.png">
 
 
 
@@ -133,13 +140,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/05/12/在用Hexo-GithubPages搭建博客时遇到的坑/"/>
 
 
 
 
 
-  <title>不挂英语</title>
+  <title>在用Hexo+GithubPages搭建博客时遇到的坑 | 不挂英语</title>
   
 
 
@@ -174,9 +181,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-   page-home 
- ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -289,9 +294,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -321,9 +326,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/05/12/在用Hexo-GithubPages搭建博客时遇到的坑/" itemprop="url">在用Hexo+GithubPages搭建博客时遇到的坑</a></h1>
+          <h1 class="post-title" itemprop="name headline">在用Hexo+GithubPages搭建博客时遇到的坑</h1>
         
 
         <div class="post-meta">
@@ -425,188 +428,128 @@
       
 
       
-        
-          <p><img src="http://7xjjdc.com1.z0.glb.clouddn.com/Hexotite.png" alt="hexo+github"><br><div class="note class_name"><p><strong>开发时踩坑记录</strong> </p></div><br>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/05/12/在用Hexo-GithubPages搭建博客时遇到的坑/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
+        <p><img src="http://7xjjdc.com1.z0.glb.clouddn.com/Hexotite.png" alt="hexo+github"><br><div class="note class_name"><p><strong>开发时踩坑记录</strong> </p></div><br><a id="more"></a><br>这不是一篇教程，主要还是记录了我从0搭建过程中遇到的坑<br>另外网上教程那么多，我何必多此一举呢？</p>
+<h2 id="开发这个博客时主要参考："><a href="#开发这个博客时主要参考：" class="headerlink" title="开发这个博客时主要参考："></a>开发这个博客时主要参考：</h2><p><a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="noopener">Hexo中文文档</a><br><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">Next主题官方文档</a><br><a href="https://zhuanlan.zhihu.com/p/26625249" target="_blank" rel="noopener">GitHub+Hexo 搭建个人网站详细教程</a></p>
+<h2 id="解决Hexo-d命令报错"><a href="#解决Hexo-d命令报错" class="headerlink" title="解决Hexo d命令报错"></a>解决Hexo d命令报错</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">FATAL bash: /dev/tty: No such device or address</span><br><span class="line">error: failed to execute prompt script (exit code 1)</span><br><span class="line">fatal: could not read Username for &apos;https://github.com&apos;: Invalid argument</span><br><span class="line">Error: bash: /dev/tty: No such device or address</span><br><span class="line">error: failed to execute prompt script (exit code 1)</span><br><span class="line">fatal: could not read Username for &apos;https://github.com&apos;: Invalid argument</span><br></pre></td></tr></table></figure>
+<p>或者显示没有发现git仓库，当时忘截图了，大概就是这个意思</p>
+<p>将原来_config.yml中的deploy中repo格式改为下列形式</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line"> type: git</span><br><span class="line"> repo:git@github.com:your_github_user_name/your_github_user_name.github.io.git</span><br><span class="line"> branch: master</span><br></pre></td></tr></table></figure>
+<h3 id="重新生成ssh-key并添加到github"><a href="#重新生成ssh-key并添加到github" class="headerlink" title="重新生成ssh key并添加到github"></a>重新生成ssh key并添加到github</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C 948805382@qq.com（换成你的邮箱地址）</span><br></pre></td></tr></table></figure>
+<p>接着出现的一些步骤都可以回车跳过： </p>
+<p>复制ssh密匙要将C:\Users\puzhiwei.ssh\id_rsa.pub中内容全部复制到GitHub</p>
+<p>添加过程见参考资料3</p>
+<h3 id="验证ssh-key："><a href="#验证ssh-key：" class="headerlink" title="验证ssh key："></a>验证ssh key：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+<p>可能会先弹出让你输入yes的选项，输入yes后，出现</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hi puzhiweizuishuai! You&apos;ve successfully authenticated, but GitHub does not provide shell access.</span><br></pre></td></tr></table></figure>
+<p>即链接成功</p>
+<h3 id="初始化本地git仓库"><a href="#初始化本地git仓库" class="headerlink" title="初始化本地git仓库"></a>初始化本地git仓库</h3><p>设置Git的user name和email：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name &quot;puzhiweizuishuai&quot;(换成你的用户名)</span><br><span class="line">$ git config --global user.email &quot;948805382@qq.com&quot;（换成你的邮箱地址）</span><br></pre></td></tr></table></figure></p>
+<p>在本地的hexo init生成的文件夹中初始化git仓库：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git init</span><br></pre></td></tr></table></figure>
+<p>做完以上这些步骤，说明你的仓库可以使用ssh方式来上传下载代码，而不需要输入用户名和密码了</p>
+<h3 id="网站部署"><a href="#网站部署" class="headerlink" title="网站部署"></a>网站部署</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean  //清除缓存文件db.json和已生成的静态文件public</span><br><span class="line">$ hexo g   //生成网站静态文件到默认设置的public文件夹</span><br><span class="line">$ hexo d   //部署网站到设定的仓库</span><br></pre></td></tr></table></figure>
+<h2 id="菜单栏汉化"><a href="#菜单栏汉化" class="headerlink" title="菜单栏汉化"></a>菜单栏汉化</h2><p>第一次以为直接在hexo的配置文件里改就行，如将home改成主页，</p>
+<p><img src="https://github.com/PuZhiweizuishuai/PzhiweiBlogPhoto/blob/master/%E8%8F%9C%E5%8D%95.JPG"></p>
+<p>后来发现这样是错误的查找官方文档后将hoex配置文件里的language文件修改为</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">language: zh-Hans</span><br></pre></td></tr></table></figure>
+<p>但菜单栏还是不改变<br>最后查找资料发现要将主题中language文件修改为zh-CN<br>并将hoex修改为</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">language: zh-CN</span><br></pre></td></tr></table></figure>
+<p>才能变成中文</p>
+<h2 id="去掉低栏的logo和注意事项"><a href="#去掉低栏的logo和注意事项" class="headerlink" title="去掉低栏的logo和注意事项"></a>去掉低栏的logo和注意事项</h2><p>用Next主题搭建起来的博客，在底部会有一个特别烦人的官方logo<br><img src="http://7xjjdc.com1.z0.glb.clouddn.com/Nextlogo.JPG"></p>
+<p>对于强迫症的我必须要改掉、改掉、改掉！</p>
+<h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><p>1.首先，找到 \themes\next\layout_partials\下面的footer.swig文件，打开会发现，如下图的语句：</p>
+<p><img src="http://7xjjdc.com1.z0.glb.clouddn.com/%E4%BF%AE%E6%94%B9logo.jpg"></p>
+<p>第一个框 是下面侧栏的“日期 XXX”如果想加东西，一定要在双大括号外面写。如：xxx,当然你要是想改彻底可以变量都删掉，看个人意愿。</p>
+<p>第二个，是图一当中 “由Hexo驱动” 的Hexo链接，先给删掉防止跳转，如果想跳转当然也可以自己写地址，至于中文一会处理。注意删除的时候格式不能错，只把<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a&gt;...&lt;/a&gt;</span><br></pre></td></tr></table></figure></p>
+<p>标签这部分删除即可，留着两个单引号’’,否则会出错哦。</p>
+<p>第三个框也是最后一个了，这个就是更改图一后半部分“主题-Next.XX”,这个比较爽直接将<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;a&gt;..&lt;/a&gt;</span><br></pre></td></tr></table></figure></p>
+<p>都删掉，同样中文“主题”一会处理，删掉之后在上一行 ‘-’后面可以随意加上你想显示的东西</p>
+<p>2.接下来，处理剩余的中文信息。找到这个地方\themes\next\languages\ 下面的语言文件zh-CN.yml（这里以中文为例，有的习惯用英文的配置文件，道理一样，找对应位置即可）<br>这个是我修改后的：<br><img src="http://7xjjdc.com1.z0.glb.clouddn.com/logo%E4%BF%AE%E6%94%B9.JPG"></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">footer:</span><br><span class="line">  powered: &quot; %s &quot;</span><br><span class="line">  theme: 吐槽</span><br></pre></td></tr></table></figure>
+<h2 id="添加地址栏图片"><a href="#添加地址栏图片" class="headerlink" title="添加地址栏图片"></a>添加地址栏图片</h2><p>这里以next主题举例<br>首先进入到<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">themes\next\source\css\_common\components\header</span><br></pre></td></tr></table></figure></p>
+<p>目录下，打开header.styl<br>修改</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.header &#123; background: $head-bg; &#125;</span><br></pre></td></tr></table></figure>
+<p>为</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.header &#123; background: url(‘图片链接’); &#125;</span><br></pre></td></tr></table></figure>
+<h2 id="End"><a href="#End" class="headerlink" title="End"></a>End</h2><p>其他问题机本上参考官方文档就可以解决，我就不多写了，毕竟太烂，有什么问题可以在评论里回复我</p>
+<hr>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>赞赏</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>Donate</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/wechatpay.png" alt="史上最帅社会主义接班人 WeChat Pay"/>
+        <p>WeChat Pay</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/alipay.jpg" alt="史上最帅社会主义接班人 Alipay"/>
+        <p>Alipay</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+          
+            <a href="/tags/GitHub/" rel="tag"># GitHub</a>
+          
+            <a href="/tags/博客/" rel="tag"># 博客</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/05/12/ceshi/" rel="next" title="测试">
+                <i class="fa fa-chevron-left"></i> 测试
+              </a>
+            
           </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
 
-    
+          <span class="post-nav-divider"></span>
 
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/12/ceshi/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="史上最帅社会主义接班人">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="http://7xjjdc.com1.z0.glb.clouddn.com/%E5%A4%B4%E5%83%8F.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="不挂英语">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/05/12/ceshi/" itemprop="url">测试</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+          <div class="post-nav-prev post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-12T18:24:07+08:00">
-                2018-05-12
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2018/05/12/ceshi/" class="leancloud_visitors" data-flag-title="测试">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计</span>
-                
-                <span title="字数统计">
-                  4
-                </span>
-              
-
-              
-
-              
-            </div>
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><p>测试</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -616,168 +559,34 @@
   </article>
 
 
-    
+
+    <div class="post-spread">
       
+        <!-- JiaThis Button BEGIN -->
+<div class="jiathis_style">
+  <a class="jiathis_button_tsina"></a>
+  <a class="jiathis_button_tqq"></a>
+  <a class="jiathis_button_weixin"></a>
+  <a class="jiathis_button_cqq"></a>
+  <a class="jiathis_button_douban"></a>
+  <a class="jiathis_button_renren"></a>
+  <a class="jiathis_button_qzone"></a>
+  <a class="jiathis_button_kaixin001"></a>
+  <a class="jiathis_button_copy"></a>
+  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
+  <a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+  var jiathis_config={
+    hideMore:false
+  }
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/12/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="史上最帅社会主义接班人">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="http://7xjjdc.com1.z0.glb.clouddn.com/%E5%A4%B4%E5%83%8F.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="不挂英语">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/05/12/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-12T15:30:08+08:00">
-                2018-05-12
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2018/05/12/hello-world/" class="leancloud_visitors" data-flag-title="Hello World">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计</span>
-                
-                <span title="字数统计">
-                  78
-                </span>
-              
-
-              
-
-              
-            </div>
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
-        
       
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
 
 
           </div>
@@ -785,6 +594,12 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNjQzOS8xMjk3NA=="></div>
+    
+  </div>
+
 
         </div>
         
@@ -805,8 +620,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="http://7xjjdc.com1.z0.glb.clouddn.com/%E5%A4%B4%E5%83%8F.jpg"
@@ -918,6 +742,22 @@ src="//music.163.com/outchain/player?type=2&id=421110087&auto=1&height=66" style
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#开发这个博客时主要参考："><span class="nav-number">1.</span> <span class="nav-text">开发这个博客时主要参考：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#解决Hexo-d命令报错"><span class="nav-number">2.</span> <span class="nav-text">解决Hexo d命令报错</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#重新生成ssh-key并添加到github"><span class="nav-number">2.1.</span> <span class="nav-text">重新生成ssh key并添加到github</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#验证ssh-key："><span class="nav-number">2.2.</span> <span class="nav-text">验证ssh key：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#初始化本地git仓库"><span class="nav-number">2.3.</span> <span class="nav-text">初始化本地git仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#网站部署"><span class="nav-number">2.4.</span> <span class="nav-text">网站部署</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#菜单栏汉化"><span class="nav-number">3.</span> <span class="nav-text">菜单栏汉化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#去掉低栏的logo和注意事项"><span class="nav-number">4.</span> <span class="nav-text">去掉低栏的logo和注意事项</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#解决方案"><span class="nav-number">4.1.</span> <span class="nav-text">解决方案</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#添加地址栏图片"><span class="nav-number">5.</span> <span class="nav-text">添加地址栏图片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#End"><span class="nav-number">6.</span> <span class="nav-text">End</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1040,10 +880,10 @@ src="//music.163.com/outchain/player?type=2&id=421110087&auto=1&height=66" style
 
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
 
-  
+
 
   
 
@@ -1072,6 +912,17 @@ src="//music.163.com/outchain/player?type=2&id=421110087&auto=1&height=66" style
 
 
 
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
   
 
 
