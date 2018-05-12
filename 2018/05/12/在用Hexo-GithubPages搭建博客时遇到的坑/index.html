@@ -107,7 +107,7 @@
 <meta property="og:image" content="http://7xjjdc.com1.z0.glb.clouddn.com/Nextlogo.JPG">
 <meta property="og:image" content="http://7xjjdc.com1.z0.glb.clouddn.com/%E4%BF%AE%E6%94%B9logo.jpg">
 <meta property="og:image" content="http://7xjjdc.com1.z0.glb.clouddn.com/logo%E4%BF%AE%E6%94%B9.JPG">
-<meta property="og:updated_time" content="2018-05-12T15:53:33.211Z">
+<meta property="og:updated_time" content="2018-05-12T16:30:51.081Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="在用Hexo+GithubPages搭建博客时遇到的坑">
 <meta name="twitter:description" content="开发时踩坑记录">
@@ -183,8 +183,7 @@
 
   <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <a href="https://github.com/PuZhiweizuishuai"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
       <div class="header-inner"><div class="site-brand-wrapper">
   <div class="site-meta ">
     
@@ -403,7 +402,7 @@
                   <span class="post-meta-item-text">字数统计</span>
                 
                 <span title="字数统计">
-                  1,081
+                  1,394
                 </span>
               
 
@@ -470,7 +469,12 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.header &#123; background: $head-bg; &#125;</span><br></pre></td></tr></table></figure>
 <p>为</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.header &#123; background: url(‘图片链接’); &#125;</span><br></pre></td></tr></table></figure>
-<h2 id="End"><a href="#End" class="headerlink" title="End"></a>End</h2><p>其他问题机本上参考官方文档就可以解决，我就不多写了，毕竟太烂，有什么问题可以在评论里回复我</p>
+<h2 id="添加文章末尾的版权声明"><a href="#添加文章末尾的版权声明" class="headerlink" title="添加文章末尾的版权声明"></a>添加文章末尾的版权声明</h2><h3 id="在路径-themes-next-layout-macro中添加passage-end-tag-swig文件，其内容为："><a href="#在路径-themes-next-layout-macro中添加passage-end-tag-swig文件，其内容为：" class="headerlink" title="在路径\themes\next\layout_macro中添加passage-end-tag.swig文件，其内容为："></a>在路径\themes\next\layout_macro中添加passage-end-tag.swig文件，其内容为：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">&#123;% if theme.passage_end_tag.enabled %&#125;+</span><br><span class="line">&lt;br/&gt;</span><br><span class="line">&lt;div style=&quot;border: 1px solid black&quot; weight=&quot;50%&quot; height=&quot;50%&quot;&gt;</span><br><span class="line">&lt;div style=&quot;margin-left:10px&quot;&gt;</span><br><span class="line">&lt;span style=&quot;font-weight:blod&quot;&gt;版权声明&lt;/span&gt;</span><br><span class="line">&lt;br/&gt;</span><br><span class="line">&lt;p style=&quot;font-size: 10px;line-height: 30px&quot;&gt;</span><br><span class="line"></span><br><span class="line">由</span><br><span class="line">&lt;a href=&quot;https://puzhiweizuishuai.github.io&quot; style=&quot;color:#258FC6&quot;&gt;</span><br><span class="line">史上最帅社会主义接班人</span><br><span class="line">&lt;/a&gt;</span><br><span class="line">创作并维护的&lt;a href=&quot;https://puzhiweizuishuai.github.io&quot; style=&quot;color:#258FC6&quot;&gt;不挂英语&lt;/a&gt;&lt;br/&gt;</span><br><span class="line">博客采用&lt;a href=&quot;https://creativecommons.org/licenses/by-nc-nd/4.0/&quot; style=&quot;color:#258FC6&quot;&gt;</span><br><span class="line">创作共用保留署名-非商业-禁止演绎4.0国际许可证&lt;/a&gt;。&lt;br/&gt;</span><br><span class="line">本文首发于&lt;a href=&quot;https://puzhiweizuishuai.github.io/&quot; style=&quot;color:#258FC6&quot;&gt;不挂英语&lt;/a&gt; </span><br><span class="line">博客（ &lt;a href=&quot;https://puzhiweizuishuai.github.io/&quot; style=&quot;color:#258FC6&quot;&gt;https://puzhiweizuishuai.github.io/&lt;/a&gt; ），</span><br><span class="line">版权所有，侵权必究。&lt;/p&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="修改-post-swig-文件"><a href="#修改-post-swig-文件" class="headerlink" title="修改 post.swig 文件"></a>修改 post.swig 文件</h3><p>在\themes\next\layout_macro\post.swig中，post-body之后，post-footer之前添加如下代码：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">  &#123;% if not is_index %&#125;</span><br><span class="line">    &#123;% include &apos;passage-end-tag.swig&apos; %&#125;+</span><br><span class="line">  &#123;% endif %&#125;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="在主题配置文件中添加字段"><a href="#在主题配置文件中添加字段" class="headerlink" title="在主题配置文件中添加字段"></a>在主题配置文件中添加字段</h3><p>在主题配置文件 _config.yml中添加以下字段开启此功能：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># 文章末尾添加“本文结束”标记</span><br><span class="line">passage_end_tag:</span><br><span class="line">  enabled: true</span><br></pre></td></tr></table></figure>
+<h2 id="End"><a href="#End" class="headerlink" title="End"></a>End</h2><p>其他问题机本上参考官方文档就可以解决，我就不多写了，毕竟太懒，有什么问题可以在评论里回复我</p>
 <hr>
 
       
@@ -478,6 +482,32 @@
     
     
     
+
+    <div>
+      +
+       +
+<br/>
+<div style="border: 1px solid black" weight="50%" height="50%">
+<div style="margin-left:10px">
+<span style="font-weight:blod">版权声明</span>
+<br/>
+<p style="font-size: 10px;line-height: 30px">
+
+由
+<a href="https://puzhiweizuishuai.github.io" style="color:#258FC6">
+史上最帅社会主义接班人
+</a>
+创作并维护的<a href="https://puzhiweizuishuai.github.io" style="color:#258FC6">不挂英语</a><br/>
+博客采用<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" style="color:#258FC6">
+创作共用保留署名-非商业-禁止演绎4.0国际许可证</a>。<br/>
+本文首发于<a href="https://puzhiweizuishuai.github.io/" style="color:#258FC6">不挂英语</a> 
+博客（ <a href="https://puzhiweizuishuai.github.io/" style="color:#258FC6">https://puzhiweizuishuai.github.io/</a> ），
+版权所有，侵权必究。</p>
+</div>
+</div>
+
+       
+    </div>
 
     
 
@@ -531,22 +561,6 @@
       
       
 
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2018/05/12/ceshi/" rel="next" title="测试">
-                <i class="fa fa-chevron-left"></i> 测试
-              </a>
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-          </div>
-        </div>
       
 
       
@@ -645,7 +659,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">1</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -752,7 +766,7 @@ src="//music.163.com/outchain/player?type=2&id=421110087&auto=1&height=66" style
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#开发这个博客时主要参考："><span class="nav-number">1.</span> <span class="nav-text">开发这个博客时主要参考：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#解决Hexo-d命令报错"><span class="nav-number">2.</span> <span class="nav-text">解决Hexo d命令报错</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#重新生成ssh-key并添加到github"><span class="nav-number">2.1.</span> <span class="nav-text">重新生成ssh key并添加到github</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#验证ssh-key："><span class="nav-number">2.2.</span> <span class="nav-text">验证ssh key：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#初始化本地git仓库"><span class="nav-number">2.3.</span> <span class="nav-text">初始化本地git仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#网站部署"><span class="nav-number">2.4.</span> <span class="nav-text">网站部署</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#菜单栏汉化"><span class="nav-number">3.</span> <span class="nav-text">菜单栏汉化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#去掉低栏的logo和注意事项"><span class="nav-number">4.</span> <span class="nav-text">去掉低栏的logo和注意事项</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#解决方案"><span class="nav-number">4.1.</span> <span class="nav-text">解决方案</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#添加地址栏图片"><span class="nav-number">5.</span> <span class="nav-text">添加地址栏图片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#End"><span class="nav-number">6.</span> <span class="nav-text">End</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#开发这个博客时主要参考："><span class="nav-number">1.</span> <span class="nav-text">开发这个博客时主要参考：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#解决Hexo-d命令报错"><span class="nav-number">2.</span> <span class="nav-text">解决Hexo d命令报错</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#重新生成ssh-key并添加到github"><span class="nav-number">2.1.</span> <span class="nav-text">重新生成ssh key并添加到github</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#验证ssh-key："><span class="nav-number">2.2.</span> <span class="nav-text">验证ssh key：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#初始化本地git仓库"><span class="nav-number">2.3.</span> <span class="nav-text">初始化本地git仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#网站部署"><span class="nav-number">2.4.</span> <span class="nav-text">网站部署</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#菜单栏汉化"><span class="nav-number">3.</span> <span class="nav-text">菜单栏汉化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#去掉低栏的logo和注意事项"><span class="nav-number">4.</span> <span class="nav-text">去掉低栏的logo和注意事项</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#解决方案"><span class="nav-number">4.1.</span> <span class="nav-text">解决方案</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#添加地址栏图片"><span class="nav-number">5.</span> <span class="nav-text">添加地址栏图片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#添加文章末尾的版权声明"><span class="nav-number">6.</span> <span class="nav-text">添加文章末尾的版权声明</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#在路径-themes-next-layout-macro中添加passage-end-tag-swig文件，其内容为："><span class="nav-number">6.1.</span> <span class="nav-text">在路径\themes\next\layout_macro中添加passage-end-tag.swig文件，其内容为：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#修改-post-swig-文件"><span class="nav-number">6.2.</span> <span class="nav-text">修改 post.swig 文件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#在主题配置文件中添加字段"><span class="nav-number">6.3.</span> <span class="nav-text">在主题配置文件中添加字段</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#End"><span class="nav-number">7.</span> <span class="nav-text">End</span></a></li></ol></div>
             
 
           </div>
