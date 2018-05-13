@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-05-13T14:35:28.778Z</updated>
+  <updated>2018-05-13T14:53:07.139Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>试试能不能放视频</title>
+    <link href="http://yoursite.com/2018/05/13/%E8%AF%95%E8%AF%95%E8%83%BD%E4%B8%8D%E8%83%BD%E6%94%BE%E8%A7%86%E9%A2%91/"/>
+    <id>http://yoursite.com/2018/05/13/试试能不能放视频/</id>
+    <published>2018-05-13T14:46:44.000Z</published>
+    <updated>2018-05-13T14:53:07.139Z</updated>
+    
+    <content type="html"><![CDATA[<p><source src="http://7xjjdc.com1.z0.glb.clouddn.com/dizhizhuangbi1.mp4" type="video/mp4"><br>好吧，不支持<br>可能只能用外链了</p><p><a src="http://7xjjdc.com1.z0.glb.clouddn.com/dizhizhuangbi1.mp4"> 视频地址 </a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;source src=&quot;http://7xjjdc.com1.z0.glb.clouddn.com/dizhizhuangbi1.mp4&quot; type=&quot;video/mp4&quot;&gt;&lt;br&gt;好吧，不支持&lt;br&gt;可能只能用外链了&lt;/p&gt;
+&lt;p&gt;&lt;a src=&quot;http://7xjj
+      
+    
+    </summary>
+    
+      <category term="学习记录" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="GitHub" scheme="http://yoursite.com/tags/GitHub/"/>
+    
+      <category term="博客" scheme="http://yoursite.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>在用Hexo+GithubPages搭建博客时遇到的坑</title>
