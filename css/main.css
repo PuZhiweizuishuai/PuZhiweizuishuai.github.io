@@ -1069,7 +1069,7 @@ pre .javascript .function {
   bottom: 30px;
 }
 .header {
-  background: url("http://7xjjdc.com1.z0.glb.clouddn.com/%E5%A4%B4%E5%83%8F.jpg");
+  background: transparent;
 }
 .header-inner {
   position: relative;
@@ -1979,7 +1979,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff0125;
+  background: #94ffd0;
 }
 .links-of-blogroll {
   font-size: 13px;
