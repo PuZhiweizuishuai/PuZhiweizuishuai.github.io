@@ -117,7 +117,7 @@
 <meta property="og:image" content="http://7xjjdc.com1.z0.glb.clouddn.com/Nextlogo.JPG">
 <meta property="og:image" content="http://7xjjdc.com1.z0.glb.clouddn.com/%E4%BF%AE%E6%94%B9logo.jpg">
 <meta property="og:image" content="http://7xjjdc.com1.z0.glb.clouddn.com/logo%E4%BF%AE%E6%94%B9.JPG">
-<meta property="og:updated_time" content="2018-05-13T07:18:34.436Z">
+<meta property="og:updated_time" content="2018-05-13T07:37:57.420Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="在用Hexo+GithubPages搭建博客时遇到的坑">
 <meta name="twitter:description" content="开发时踩坑记录">
@@ -415,7 +415,7 @@
                   <span class="post-meta-item-text">字数统计</span>
                 
                 <span title="字数统计">
-                  1,925
+                  1,952
                 </span>
               
 
@@ -477,11 +477,9 @@
 <p>都删掉，同样中文“主题”一会处理，删掉之后在上一行 ‘-’后面可以随意加上你想显示的东西</p>
 <p>2.接下来，处理剩余的中文信息。找到这个地方\themes\next\languages\ 下面的语言文件zh-CN.yml（这里以中文为例，有的习惯用英文的配置文件，道理一样，找对应位置即可）<br>这个是我修改后的：<br><img src="http://7xjjdc.com1.z0.glb.clouddn.com/logo%E4%BF%AE%E6%94%B9.JPG"></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">footer:</span><br><span class="line">  powered: &quot; %s &quot;</span><br><span class="line">  theme: 吐槽</span><br></pre></td></tr></table></figure>
-<h2 id="添加地址栏图片"><a href="#添加地址栏图片" class="headerlink" title="添加地址栏图片"></a>添加地址栏图片</h2><p>这里以next主题举例<br>首先进入到<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">themes\next\source\css\_common\components\header</span><br></pre></td></tr></table></figure></p>
-<p>目录下，打开header.styl<br>修改</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.header &#123; background: $head-bg; &#125;</span><br></pre></td></tr></table></figure>
-<p>为</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.header &#123; background: url(‘图片链接’); &#125;</span><br></pre></td></tr></table></figure>
+<h2 id="添加地址栏图片"><a href="#添加地址栏图片" class="headerlink" title="添加地址栏图片"></a>添加地址栏图片</h2><p>加入后就可以在浏览器的标签栏或者是收藏夹里面现实网站的缩略图标了。<br>在themes/next/的_config.yml中配置：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Put your favicon.ico into `hexo-site/source/` directory.</span><br><span class="line"> favicon: /images/favicon.ico</span><br></pre></td></tr></table></figure>
+<p>然后把图标放到根目录的source/images/下面。</p>
 <h2 id="添加文章末尾的版权声明"><a href="#添加文章末尾的版权声明" class="headerlink" title="添加文章末尾的版权声明"></a>添加文章末尾的版权声明</h2><h3 id="在路径-themes-next-layout-macro中添加passage-end-tag-swig文件，其内容为："><a href="#在路径-themes-next-layout-macro中添加passage-end-tag-swig文件，其内容为：" class="headerlink" title="在路径\themes\next\layout_macro中添加passage-end-tag.swig文件，其内容为："></a>在路径\themes\next\layout_macro中添加passage-end-tag.swig文件，其内容为：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">&#123;% if theme.passage_end_tag.enabled %&#125;+</span><br><span class="line">&lt;br/&gt;</span><br><span class="line">&lt;div style=&quot;border: 1px solid black&quot; weight=&quot;50%&quot; height=&quot;50%&quot;&gt;</span><br><span class="line">&lt;div style=&quot;margin-left:10px&quot;&gt;</span><br><span class="line">&lt;span style=&quot;font-weight:blod&quot;&gt;版权声明&lt;/span&gt;</span><br><span class="line">&lt;br/&gt;</span><br><span class="line">&lt;p style=&quot;font-size: 10px;line-height: 30px&quot;&gt;</span><br><span class="line"></span><br><span class="line">由</span><br><span class="line">&lt;a href=&quot;https://puzhiweizuishuai.github.io&quot; style=&quot;color:#258FC6&quot;&gt;</span><br><span class="line">史上最帅社会主义接班人</span><br><span class="line">&lt;/a&gt;</span><br><span class="line">创作并维护的&lt;a href=&quot;https://puzhiweizuishuai.github.io&quot; style=&quot;color:#258FC6&quot;&gt;不挂英语&lt;/a&gt;&lt;br/&gt;</span><br><span class="line">博客采用&lt;a href=&quot;https://creativecommons.org/licenses/by-nc-nd/4.0/&quot; style=&quot;color:#258FC6&quot;&gt;</span><br><span class="line">创作共用保留署名-非商业-禁止演绎4.0国际许可证&lt;/a&gt;。&lt;br/&gt;</span><br><span class="line">本文首发于&lt;a href=&quot;https://puzhiweizuishuai.github.io/&quot; style=&quot;color:#258FC6&quot;&gt;不挂英语&lt;/a&gt; </span><br><span class="line">博客（ &lt;a href=&quot;https://puzhiweizuishuai.github.io/&quot; style=&quot;color:#258FC6&quot;&gt;https://puzhiweizuishuai.github.io/&lt;/a&gt; ），</span><br><span class="line">版权所有，侵权必究。&lt;/p&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
 <h3 id="修改-post-swig-文件"><a href="#修改-post-swig-文件" class="headerlink" title="修改 post.swig 文件"></a>修改 post.swig 文件</h3><p>在\themes\next\layout_macro\post.swig中，post-body之后，post-footer之前添加如下代码：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;div&gt;</span><br><span class="line">  &#123;% if not is_index %&#125;</span><br><span class="line">    &#123;% include &apos;passage-end-tag.swig&apos; %&#125;+</span><br><span class="line">  &#123;% endif %&#125;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
