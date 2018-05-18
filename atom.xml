@@ -5,9 +5,9 @@
   <subtitle>我和清华只差一个成绩优异</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://www.buguagaoshu.com/"/>
   <updated>2018-05-17T14:20:21.101Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://www.buguagaoshu.com/</id>
   
   <author>
     <name>史上最帅社会主义接班人</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>C#笔记：泛型</title>
-    <link href="http://yoursite.com/2018/05/17/C-%E7%AC%94%E8%AE%B0%EF%BC%9A%E6%B3%9B%E5%9E%8B/"/>
-    <id>http://yoursite.com/2018/05/17/C-笔记：泛型/</id>
+    <link href="https://www.buguagaoshu.com/2018/05/17/C-%E7%AC%94%E8%AE%B0%EF%BC%9A%E6%B3%9B%E5%9E%8B/"/>
+    <id>https://www.buguagaoshu.com/2018/05/17/C-笔记：泛型/</id>
     <published>2018-05-17T13:52:46.000Z</published>
     <updated>2018-05-17T14:20:21.101Z</updated>
     
@@ -31,19 +31,19 @@
     
     </summary>
     
-      <category term="C#" scheme="http://yoursite.com/categories/C/"/>
+      <category term="C#" scheme="https://www.buguagaoshu.com/categories/C/"/>
     
     
-      <category term="C#" scheme="http://yoursite.com/tags/C/"/>
+      <category term="C#" scheme="https://www.buguagaoshu.com/tags/C/"/>
     
-      <category term="学习笔记" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://www.buguagaoshu.com/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>SQL学习笔记2：查询</title>
-    <link href="http://yoursite.com/2018/05/15/SQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B02%EF%BC%9A%E6%9F%A5%E8%AF%A2/"/>
-    <id>http://yoursite.com/2018/05/15/SQL学习笔记2：查询/</id>
+    <link href="https://www.buguagaoshu.com/2018/05/15/SQL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B02%EF%BC%9A%E6%9F%A5%E8%AF%A2/"/>
+    <id>https://www.buguagaoshu.com/2018/05/15/SQL学习笔记2：查询/</id>
     <published>2018-05-15T04:49:39.000Z</published>
     <updated>2018-05-15T05:00:28.885Z</updated>
     
@@ -55,19 +55,19 @@
     
     </summary>
     
-      <category term="数据库" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+      <category term="数据库" scheme="https://www.buguagaoshu.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
     
-      <category term="SQL" scheme="http://yoursite.com/tags/SQL/"/>
+      <category term="SQL" scheme="https://www.buguagaoshu.com/tags/SQL/"/>
     
-      <category term="数据库" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+      <category term="数据库" scheme="https://www.buguagaoshu.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
   <entry>
     <title>SQL学习记录1：创建数据库与创建表</title>
-    <link href="http://yoursite.com/2018/05/14/SQL%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%951%EF%BC%9A%E5%88%9B%E5%BB%BA%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8E%E5%88%9B%E5%BB%BA%E8%A1%A8/"/>
-    <id>http://yoursite.com/2018/05/14/SQL学习记录1：创建数据库与创建表/</id>
+    <link href="https://www.buguagaoshu.com/2018/05/14/SQL%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%951%EF%BC%9A%E5%88%9B%E5%BB%BA%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8E%E5%88%9B%E5%BB%BA%E8%A1%A8/"/>
+    <id>https://www.buguagaoshu.com/2018/05/14/SQL学习记录1：创建数据库与创建表/</id>
     <published>2018-05-14T14:22:58.000Z</published>
     <updated>2018-05-14T15:05:01.778Z</updated>
     
@@ -80,19 +80,19 @@
     
     </summary>
     
-      <category term="数据库" scheme="http://yoursite.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+      <category term="数据库" scheme="https://www.buguagaoshu.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
     
-      <category term="SQL" scheme="http://yoursite.com/tags/SQL/"/>
+      <category term="SQL" scheme="https://www.buguagaoshu.com/tags/SQL/"/>
     
-      <category term="数据库" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+      <category term="数据库" scheme="https://www.buguagaoshu.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
   <entry>
     <title>试试能不能放视频</title>
-    <link href="http://yoursite.com/2018/05/13/%E8%AF%95%E8%AF%95%E8%83%BD%E4%B8%8D%E8%83%BD%E6%94%BE%E8%A7%86%E9%A2%91/"/>
-    <id>http://yoursite.com/2018/05/13/试试能不能放视频/</id>
+    <link href="https://www.buguagaoshu.com/2018/05/13/%E8%AF%95%E8%AF%95%E8%83%BD%E4%B8%8D%E8%83%BD%E6%94%BE%E8%A7%86%E9%A2%91/"/>
+    <id>https://www.buguagaoshu.com/2018/05/13/试试能不能放视频/</id>
     <published>2018-05-13T14:46:44.000Z</published>
     <updated>2018-05-15T04:56:09.092Z</updated>
     
@@ -107,21 +107,21 @@
     
     </summary>
     
-      <category term="学习记录" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+      <category term="学习记录" scheme="https://www.buguagaoshu.com/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
     
     
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://www.buguagaoshu.com/tags/Hexo/"/>
     
-      <category term="GitHub" scheme="http://yoursite.com/tags/GitHub/"/>
+      <category term="GitHub" scheme="https://www.buguagaoshu.com/tags/GitHub/"/>
     
-      <category term="博客" scheme="http://yoursite.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+      <category term="博客" scheme="https://www.buguagaoshu.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
   <entry>
     <title>在用Hexo+GithubPages搭建博客时遇到的坑</title>
-    <link href="http://yoursite.com/2018/05/12/%E5%9C%A8%E7%94%A8Hexo-GithubPages%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91/"/>
-    <id>http://yoursite.com/2018/05/12/在用Hexo-GithubPages搭建博客时遇到的坑/</id>
+    <link href="https://www.buguagaoshu.com/2018/05/12/%E5%9C%A8%E7%94%A8Hexo-GithubPages%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91/"/>
+    <id>https://www.buguagaoshu.com/2018/05/12/在用Hexo-GithubPages搭建博客时遇到的坑/</id>
     <published>2018-05-12T13:59:43.000Z</published>
     <updated>2018-05-13T14:35:28.778Z</updated>
     
@@ -133,14 +133,14 @@
     
     </summary>
     
-      <category term="学习记录" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
+      <category term="学习记录" scheme="https://www.buguagaoshu.com/categories/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/"/>
     
     
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://www.buguagaoshu.com/tags/Hexo/"/>
     
-      <category term="GitHub" scheme="http://yoursite.com/tags/GitHub/"/>
+      <category term="GitHub" scheme="https://www.buguagaoshu.com/tags/GitHub/"/>
     
-      <category term="博客" scheme="http://yoursite.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+      <category term="博客" scheme="https://www.buguagaoshu.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
