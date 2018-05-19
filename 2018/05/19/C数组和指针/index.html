@@ -114,7 +114,7 @@
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://7xjjdc.com1.z0.glb.clouddn.com/blog/C/2018/5/19/czhizheng1.jpg">
 <meta property="og:image" content="http://7xjjdc.com1.z0.glb.clouddn.com/blog/C/2018/5/19zj2.JPG">
-<meta property="og:updated_time" content="2018-05-19T15:23:45.513Z">
+<meta property="og:updated_time" content="2018-05-19T15:28:44.775Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="C数组和指针">
 <meta name="twitter:description" content="摘要数组和指针差别指针的指针指向数组的指针">
@@ -455,11 +455,22 @@
 </tr>
 <tr>
 <td>直接访问数据a[i]只是简单地以a+i为地址取得数据</td>
-<td style="text-align:right">间接访问数据，首先取得指针内容，把它作为地址，然后从这个地址提取数据。</td>
+<td style="text-align:right">间接访问数据，首先取得指针内容，把它作为地址，然后从这个地址提取数据。如果一个直接下标[i]，就把指针内容加上i作为地址，从中提取数据</td>
+</tr>
+<tr>
+<td>通常用于储存固定数目且数据类型相同的元素</td>
+<td style="text-align:right">通常用于动态结构</td>
+</tr>
+<tr>
+<td>隐式分配和删除</td>
+<td style="text-align:right">相关函数为malloc()，free()</td>
+</tr>
+<tr>
+<td>自身即为数据名</td>
+<td style="text-align:right">通常指向匿名数据</td>
 </tr>
 </tbody>
 </table>
-<p>如果一个直接下标[i]，就把指针内容加上i作为地址，从中提取数据 |<br>| 通常用于储存固定数目且数据类型相同的元素 | 通常用于动态结构 |<br>| 隐式分配和删除 | 相关函数为malloc()，free() |<br>| 自身即为数据名 | 通常指向匿名数据 |</p>
 <p>数组和指针都可以在它们定义中使用字符串常量进行初始化，尽管看上去一样，但是底层机制却不相同<br>定义指针时，编译器并部位指针所指向的对象分配控件，它只是分配指针本身的空间，除非在定义的同时赋值给指针一个字符串常量进行初始化。<br>在ANSI C中，初始化指针所创建的字符串常量通常被定义为只读。</p>
 <h2 id="什么时候数组和指针相同"><a href="#什么时候数组和指针相同" class="headerlink" title="什么时候数组和指针相同"></a>什么时候数组和指针相同</h2><h3 id="规则一：表达式中的数组名就是指针"><a href="#规则一：表达式中的数组名就是指针" class="headerlink" title="规则一：表达式中的数组名就是指针"></a>规则一：表达式中的数组名就是指针</h3><p>例：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> a[<span class="number">10</span>], *p, i = <span class="number">2</span>;</span><br><span class="line">p = a;</span><br><span class="line">p[i];</span><br></pre></td></tr></table></figure></p>
 <h3 id="规则2：C语言把数组下标作为偏移量"><a href="#规则2：C语言把数组下标作为偏移量" class="headerlink" title="规则2：C语言把数组下标作为偏移量"></a>规则2：C语言把数组下标作为偏移量</h3><p>例：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> a[<span class="number">10</span>], *p, i = <span class="number">2</span>;</span><br><span class="line">p = a;</span><br><span class="line"><span class="keyword">for</span>(i = <span class="number">0</span>;i &lt; <span class="number">10</span>;i++)</span><br><span class="line">&#123;</span><br><span class="line">    *(p+i) = <span class="number">0</span>;  <span class="comment">//与a[i] = 0;相同</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
