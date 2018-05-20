@@ -112,7 +112,7 @@
 <meta property="og:site_name" content="不挂高数">
 <meta property="og:description" content="本文为SQL学习记录笔记第二篇记录笔记：查询包含SELECT语句，简单查询，连接查询及嵌套查询">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-05-20T13:32:07.885Z">
+<meta property="og:updated_time" content="2018-05-20T13:59:12.879Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="SQL学习笔记2：查询">
 <meta name="twitter:description" content="本文为SQL学习记录笔记第二篇记录笔记：查询包含SELECT语句，简单查询，连接查询及嵌套查询">
@@ -409,7 +409,7 @@
                   <span class="post-meta-item-text">字数统计</span>
                 
                 <span title="字数统计">
-                  3,419
+                  3,417
                 </span>
               
 
@@ -458,10 +458,10 @@
 <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="keyword">id</span>, <span class="keyword">name</span>, score</span><br><span class="line"><span class="keyword">FROM</span> students</span><br><span class="line"><span class="keyword">ORDER</span> <span class="keyword">BY</span> score,<span class="keyword">name</span>;</span><br></pre></td></tr></table></figure>
 <h2 id="过滤数据"><a href="#过滤数据" class="headerlink" title="过滤数据"></a>过滤数据</h2><h3 id="使用WHERE子句"><a href="#使用WHERE子句" class="headerlink" title="使用WHERE子句"></a>使用WHERE子句</h3><p>例如</p>
 <p>查询所有女生的信息</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> *</span><br><span class="line"><span class="keyword">FROM</span> student</span><br><span class="line"><span class="keyword">WHERE</span> sex=<span class="string">'女'</span>;        <span class="comment">--知名查询所要满足的条件即都为女生</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> *</span><br><span class="line"><span class="keyword">FROM</span> student</span><br><span class="line"><span class="keyword">WHERE</span> sex=<span class="string">'女'</span>;        <span class="comment">--查询所要满足的条件即都为女生</span></span><br></pre></td></tr></table></figure>
 <p>求女生人数<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="keyword">COUNT</span>(*) <span class="keyword">AS</span> <span class="string">'女生人数'</span> </span><br><span class="line"><span class="keyword">FROM</span> student <span class="keyword">WHERE</span> sex=<span class="string">'女'</span>  <span class="comment">--使用COUNT函数返回满足条件列的数目，</span></span><br><span class="line"><span class="comment">--并给改列命名为女生人数</span></span><br></pre></td></tr></table></figure></p>
 <p><strong>注意：WHERE 子句的位置 在同时使用 ORDER BY 和 WHERE 子句时，应该让 ORDER BY 位于WHERE 之后，否则将会产生错误</strong></p>
-<p>查询不是女生的人<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="keyword">id</span>, <span class="keyword">name</span>，sex </span><br><span class="line"><span class="keyword">FROM</span> Products </span><br><span class="line"><span class="keyword">WHERE</span> vend_id &lt;&gt; <span class="string">'女'</span>; </span><br></pre></td></tr></table></figure></p>
+<p>查询不是女生的人<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="keyword">id</span>, <span class="keyword">name</span>,sex </span><br><span class="line"><span class="keyword">FROM</span> student</span><br><span class="line"><span class="keyword">WHERE</span> sex &lt;&gt; <span class="string">'女'</span>; </span><br></pre></td></tr></table></figure></p>
 <p><strong>注意：是!=还是&lt;&gt;？!=和&lt;&gt;通常可以互换。但是，并非所有 DBMS 都支持这两种不等于操作符。例如，Microsoft Access 支持&lt;&gt;而不支持!=。如果有疑问，请参阅相应的 DBMS 文档。</strong></p>
 <h3 id="IN-操作符"><a href="#IN-操作符" class="headerlink" title="IN 操作符"></a>IN 操作符</h3><p>IN 操作符用来指定条件范围，范围中的每个条件都可以进行匹配。IN 取一组由逗号分隔、括在圆括号中的合法值。</p>
 <p>查询选择了20001和20002两门课程的学生<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="keyword">name</span></span><br><span class="line"><span class="keyword">FROM</span> students</span><br><span class="line"><span class="keyword">WHERE</span> couses <span class="keyword">IN</span> ( <span class="number">20001</span>, <span class="number">20002</span> ) ;</span><br></pre></td></tr></table></figure></p>
@@ -864,8 +864,8 @@ src="//music.163.com/outchain/player?type=2&id=29734857&auto=1&height=66" style=
 
 
 <div class="powered-by">
-<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
-  本站访客数:<span id="busuanzi_value_site_uv"></span>
+<i class="fa fa-user-md"></i><span id="busuanzi_container_site_pv">
+  本站访客数:<span id="busuanzi_value_site_pv"></span>
 </span>
 </div>
 <div class="powered-by">
