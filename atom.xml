@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.buguagaoshu.com/"/>
-  <updated>2018-06-20T15:03:08.244Z</updated>
+  <updated>2018-12-03T09:30:10.371Z</updated>
   <id>https://www.buguagaoshu.com/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>图床挂了，所以。。。</title>
+    <link href="https://www.buguagaoshu.com/2018/12/03/%E5%9B%BE%E5%BA%8A%E6%8C%82%E4%BA%86%EF%BC%8C%E6%89%80%E4%BB%A5%E3%80%82%E3%80%82%E3%80%82/"/>
+    <id>https://www.buguagaoshu.com/2018/12/03/图床挂了，所以。。。/</id>
+    <published>2018-12-03T09:27:53.000Z</published>
+    <updated>2018-12-03T09:30:10.371Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note danger"><p><strong>因为原来的图床挂了</strong><br><strong>所以今天之前的文章图片无法显示</strong><br><strong>我懒得改了，就这样将就这看吧</strong></p></div><a id="more"></a><p>没有更多内容了</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;note danger&quot;&gt;&lt;p&gt;&lt;strong&gt;因为原来的图床挂了&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;所以今天之前的文章图片无法显示&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;我懒得改了，就这样将就这看吧&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>c#笔记：对象间数据传递</title>
